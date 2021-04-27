@@ -87,14 +87,13 @@ public class Main {
             	caso[z].setDeaths(valoresEntreVirgulas1[5]);
             	caso[z].setOrderForPlace(valoresEntreVirgulas1[6]);
             	caso[z].setIsLast(valoresEntreVirgulas1[7]);
-            	System.out.println(caso[z].toString());
-            	System.out.println("oxe: "+valoresEntreVirgulas1[8]);
             	caso[z].setEstimatedPop(valoresEntreVirgulas1[8]);
             	caso[z].setEstimatedPopNow(valoresEntreVirgulas1[9]);
             	caso[z].setCityIbgeCode(valoresEntreVirgulas1[10]);
             	caso[z].setConfirmedHundred(valoresEntreVirgulas1[11]);
             	caso[z].setDeathRate(valoresEntreVirgulas1[12]);
-            	caso[z].toString();
+            	System.out.println(caso[z].toString());
+            	System.out.println("oxe: "+valoresEntreVirgulas1[8]);
             }
             /*
             System.out.println(newList[0]);
